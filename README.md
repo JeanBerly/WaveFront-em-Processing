@@ -8,7 +8,7 @@ Para abrir o programa é necessário fazer o download do Processing no seguinte 
   <li>No canto superior esquerdo clique em File</li>
   <li>Clique em Open</li>
   <li>Selecione o arquivo .pde que você quer abrir</li>
-  <li> Clique no ícone ▶️</li>
+  <li> Clique no ícone ▶️ para executar</li>
 </ul>
 <h3> Como aumentar o número de obstáculos ou o tamanho da matriz</h3>
   Caso queira aumentar o tamanho da matriz altere a variável dimensoes.<br>
