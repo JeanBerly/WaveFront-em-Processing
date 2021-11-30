@@ -26,11 +26,18 @@
     <li>-1: Espaço livre porém não mapeado</li>
     <li> 0: Obstáculo</li>
   </ul>
-  Foram utilizados valores negativos, já que os positivos representam a distância do bloco do robô.
+    Foram utilizados valores negativos, já que os positivos representam a distância do bloco do robô.
   <li>cria_mapa</li>
+    Nesta função o mapa é gerado e inicializado com valores de -1 e são sorteados os obstáculos e a posição do robô e destino garantindo que nenhum vá se sobrepor.
   <li>wavefront</li>
+    Nesta função é procurado as posições do robô e destino, é aqui que as funções bfs e menorCaminho são chamadas.
   <li>Simulacao</li>
+    É aqui que a função moverRobo é chamada.
   <li>bfs</li>
+    A partir de uma coordenada x, y são analisados os 4 blocos adjacentes, preenchidos com o valor de (distância + 1) e adicionados a fila.
+    Caso seja descoberto a posição destino a fila é limpa e será feito um return.
   <li>menorCaminho</li>
-  <li>moverRobo</li>  
+    A partir do destino é feito a procura do menor caminho procurando o bloco adjacente com menor valor.
+  <li>moverRobo</li>
+    É aqui que o robô irá percorrer o caminho até o destino.
 </ol>
